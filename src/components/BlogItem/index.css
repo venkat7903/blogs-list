@@ -1,0 +1,32 @@
+/* Write your CSS code here */
+.blog-item {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid #9aa5b1;
+  padding-left: 8px;
+}
+
+.blog-title-date-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.blog-title {
+  font-size: 20px;
+  color: #12022f;
+}
+
+.published-date {
+  color: #616e7c;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.last-item {
+  border: none;
+}
+
+.blog-desc {
+  color: #9aa5b1;
+}
